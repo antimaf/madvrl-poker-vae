@@ -25,5 +25,5 @@ lightning_logs/
 .DS_Store
 
 # Large data files (optional, comment out if you want to track)
-*.parquet
+!*.parquet
 *.npz
