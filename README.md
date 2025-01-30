@@ -1,6 +1,6 @@
 # MADVRL: Multi-Agent Deep Variational Reinforcement Learning
 
-## Poker Game State Inference Project
+## Poker Game State Inference
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antimaf/madvrl-poker-vae/blob/main/notebooks/train_poker_vae.ipynb)
 [![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/antimaf/madvrl-poker-vae/blob/main/notebooks/train_poker_vae.ipynb)
