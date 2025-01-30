@@ -1,11 +1,18 @@
+import os
+import sys
+
+# Add project root to Python path
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+sys.path.insert(0, PROJECT_ROOT)
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import pandas as pd
 import numpy as np
-from torch.distributions import Normal, kl_divergence
 from typing import Tuple, Dict, Optional
 from torch.utils.data import Dataset, DataLoader
+
+from madvrl.preprocessing.vae_preprocessing import create_vae_dataloader
 
 class PokerDataset(Dataset):
     """PyTorch Dataset for Poker Game Metrics"""
@@ -561,7 +568,7 @@ def main():
     import numpy as np
     import sys
     from tqdm import tqdm
-    from vae_preprocessing import create_vae_dataloader
+    from madvrl.preprocessing.vae_preprocessing import create_vae_dataloader
     
     # Ensure full output
     np.set_printoptions(threshold=sys.maxsize)
