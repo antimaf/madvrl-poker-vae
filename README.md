@@ -2,6 +2,9 @@
 
 ## Poker Game State Inference Project
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antimaf/madvrl-poker-vae/blob/main/train_poker_vae.ipynb)
+[![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/antimaf/madvrl-poker-vae/blob/main/train_poker_vae.ipynb)
+
 ### Overview
 This project is part of the MADVRL (Multi-Agent Deep Variational Reinforcement Learning) research project, focusing on advanced probabilistic modeling of poker game states using Variational Autoencoders (VAEs).
 
@@ -75,4 +78,3 @@ Open the notebook in Colab or Kaggle using the badges above.
 
 ### Dependencies
 See `requirements.txt` for full dependency list.
-
