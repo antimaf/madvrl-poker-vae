@@ -2,8 +2,47 @@
 
 ## Poker Game State Inference Project
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antimaf/madvrl-poker-vae/blob/main/train_poker_vae.ipynb)
-[![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/antimaf/madvrl-poker-vae/blob/main/train_poker_vae.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antimaf/madvrl-poker-vae/blob/main/notebooks/train_poker_vae.ipynb)
+[![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/antimaf/madvrl-poker-vae/blob/main/notebooks/train_poker_vae.ipynb)
+
+### Project Structure
+
+```
+madvrl-poker-vae/
+│
+├── src/
+│   └── madvrl/
+│       ├── __init__.py
+│       ├── models/
+│       │   ├── __init__.py
+│       │   └── poker_vae.py
+│       ├── preprocessing/
+│       │   ├── __init__.py
+│       │   ├── vae_preprocessing.py
+│       │   └── data_preprocessing.py
+│       └── utils/
+│           ├── __init__.py
+│           ├── compare_datasets.py
+│           ├── visualize.py
+│           ├── generate.py
+│           ├── benchmark.py
+│           └── data_viewer.py
+│
+├── notebooks/
+│   └── train_poker_vae.ipynb
+│
+├── data/
+│   ├── poker_game_metrics.parquet
+│   ├── poker_game_metrics_full.parquet
+│   └── poker_game_metrics_vae.parquet
+│
+├── tests/
+│   └── (future test files)
+│
+├── setup.py
+├── requirements.txt
+└── README.md
+```
 
 ### Overview
 This project is part of the MADVRL (Multi-Agent Deep Variational Reinforcement Learning) research project, focusing on advanced probabilistic modeling of poker game states using Variational Autoencoders (VAEs).
