@@ -4,7 +4,7 @@ import sys
 # Add project root to Python path
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
 sys.path.insert(0, PROJECT_ROOT)
-import os
+
 import pandas as pd
 import numpy as np
 import torch
@@ -15,7 +15,6 @@ import pyarrow.parquet as pq
 import pyarrow as pa
 
 # Determine project root directory
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
 DATA_DIR = os.path.join(PROJECT_ROOT, 'data')
 
 class PokerVAEDataset(Dataset):
