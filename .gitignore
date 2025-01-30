@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Machine Learning
+*.pth
+*.pt
+*.pkl
+
+# Environments
+venv/
+env/
+.env
+.venv
+
+# Metrics and Logs
+*.log
+lightning_logs/
+
+# Mac
+.DS_Store
+
+# Large data files (optional, comment out if you want to track)
+*.parquet
+*.npz
